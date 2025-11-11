@@ -1,0 +1,63 @@
+'Log files:
+D:\work\projects\My-Portfolio\npm-cache\_logs\2025-11-07T12_20_27_571Z-debug-0.log
+
+# npm resolution error report
+
+While resolving: react-tilt@1.0.2
+Found: @types/react@19.2.2
+node_modules/@types/react
+  peer @types/react@"^19.2.0" from @types/react-dom@19.2.2
+  node_modules/@types/react-dom
+    dev @types/react-dom@"^19.1.9" from the root project
+  peer @types/react@"*" from @types/react-reconciler@0.32.3
+  node_modules/@types/react-reconciler
+    @types/react-reconciler@"^0.32.0" from @react-three/fiber@9.4.0
+    node_modules/@react-three/fiber
+      peer @react-three/fiber@"^9.0.0" from @react-three/drei@10.7.6
+      node_modules/@react-three/drei
+        @react-three/drei@"^10.7.6" from the root project
+      @react-three/fiber@"^9.4.0" from the root project
+  peer @types/react@"*" from @types/react-reconciler@0.28.9
+  node_modules/its-fine/node_modules/@types/react-reconciler
+    @types/react-reconciler@"^0.28.9" from its-fine@2.0.0
+    node_modules/its-fine
+      its-fine@"^2.0.0" from @react-three/fiber@9.4.0
+      node_modules/@react-three/fiber
+        peer @react-three/fiber@"^9.0.0" from @react-three/drei@10.7.6
+        node_modules/@react-three/drei
+          @react-three/drei@"^10.7.6" from the root project
+        @react-three/fiber@"^9.4.0" from the root project
+  peerOptional @types/react@">=16.8" from zustand@4.5.7
+  node_modules/tunnel-rat/node_modules/zustand
+    zustand@"^4.3.2" from tunnel-rat@0.1.2
+    node_modules/tunnel-rat
+      tunnel-rat@"^0.1.2" from @react-three/drei@10.7.6
+      node_modules/@react-three/drei
+        @react-three/drei@"^10.7.6" from the root project
+  peerOptional @types/react@">=18.0.0" from zustand@5.0.8
+  node_modules/zustand
+    zustand@"^5.0.1" from @react-three/drei@10.7.6
+    node_modules/@react-three/drei
+      @react-three/drei@"^10.7.6" from the root project
+    zustand@"^5.0.3" from @react-three/fiber@9.4.0
+    node_modules/@react-three/fiber
+      peer @react-three/fiber@"^9.0.0" from @react-three/drei@10.7.6
+      node_modules/@react-three/drei
+        @react-three/drei@"^10.7.6" from the root project
+      @react-three/fiber@"^9.4.0" from the root project
+  dev @types/react@"^19.1.16" from the root project
+
+Could not resolve dependency:
+peer @types/react@"^18.0.29" from react-tilt@1.0.2
+node_modules/react-tilt
+  react-tilt@"^1.0.2" from the root project
+
+Conflicting peer dependency: @types/react@18.3.26
+node_modules/@types/react
+  peer @types/react@"^18.0.29" from react-tilt@1.0.2
+  node_modules/react-tilt
+    react-tilt@"^1.0.2" from the root project
+
+Fix the upstream dependency conflict, or retry
+this command with --force or --legacy-peer-deps
+to accept an incorrect (and potentially broken) dependency resolution.
