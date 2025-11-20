@@ -25,15 +25,15 @@ import {
   // threejs,
 } from "../assets";
 
-// import javascript from "../assets/tech/javascript.png"
-// import typescript from "../assets/tech/typescript.png"
-// import html from "../assets/tech/html.png"
-// import css from "../assets/tech/css.png"
-// import reactjs from "../assets/tech/reactjs.png"
-// import redux from "../assets/tech/redux.png"
-// import tailwind from "../assets/tech/tailwind.png"
-// import git from "../assets/tech/git.png"
-// import threejs from "../assets/tech/threejs.svg"
+import javascript from "../assets/tech/javascript.png"
+import typescript from "../assets/tech/typescript.png"
+import html from "../assets/tech/html.png"
+import css from "../assets/tech/css.png"
+import reactjs from "../assets/tech/reactjs.png"
+import redux from "../assets/tech/redux.png"
+import tailwind from "../assets/tech/tailwind.png"
+import git from "../assets/tech/git.png"
+import threejs from "../assets/tech/threejs.svg"
 
 export const navLinks = [
   {
@@ -72,31 +72,31 @@ const services = [
 const technologies = [
   {
     name: "HTML 5",
-    icon: "/public/tech/html.png",
+    icon: html,
   },
   {
     name: "CSS 3",
-    icon: "/public/tech/css.png",
+    icon: css,
   },
   {
     name: "JavaScript",
-    icon: "/public/tech/javascript.png",
+    icon: javascript,
   },
   {
     name: "TypeScript",
-    icon: "/public/tech/typescript.png",
+    icon: typescript,
   },
   {
     name: "React JS",
-    icon: "/public/tech/reactjs.png",
+    icon: reactjs,
   },
   {
     name: "Redux Toolkit",
-    icon: "/public/tech/redux.png",
+    icon: redux,
   },
   {
     name: "Tailwind CSS",
-    icon: "/public/tech/tailwind.png",
+    icon: tailwind,
   },
   // {
   //   name: "Node JS",
@@ -108,11 +108,11 @@ const technologies = [
   // },
   {
     name: "Three JS",
-    icon: "/public/tech/threejs.svg",
+    icon: threejs,
   },
   {
     name: "git",
-    icon: "/public/tech/git.png",
+    icon: git,
   },
   // {
   //   name: "figma",
