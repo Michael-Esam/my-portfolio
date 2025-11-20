@@ -10,11 +10,11 @@ import {
   // reactjs,
   // redux,
   // tailwind,
-  nodejs,
-  mongodb,
+  // nodejs,
+  // mongodb,
   // git,
-  figma,
-  docker,
+  // figma,
+  // docker,
   meta,
   starbucks,
   tesla,
@@ -25,15 +25,15 @@ import {
   // threejs,
 } from "../assets";
 
-import javascript from "../assets/tech/javascript.png"
-import typescript from "../assets/tech/typescript.png"
-import html from "../assets/tech/html.png"
-import css from "../assets/tech/css.png"
-import reactjs from "../assets/tech/reactjs.png"
-import redux from "../assets/tech/redux.png"
-import tailwind from "../assets/tech/tailwind.png"
-import git from "../assets/tech/git.png"
-import threejs from "../assets/tech/threejs.svg"
+// import javascript from "../assets/tech/javascript.png"
+// import typescript from "../assets/tech/typescript.png"
+// import html from "../assets/tech/html.png"
+// import css from "../assets/tech/css.png"
+// import reactjs from "../assets/tech/reactjs.png"
+// import redux from "../assets/tech/redux.png"
+// import tailwind from "../assets/tech/tailwind.png"
+// import git from "../assets/tech/git.png"
+// import threejs from "../assets/tech/threejs.svg"
 
 export const navLinks = [
   {
@@ -72,31 +72,31 @@ const services = [
 const technologies = [
   {
     name: "HTML 5",
-    icon: html,
+    icon: "/public/tech/html.png",
   },
   {
     name: "CSS 3",
-    icon: css,
+    icon: "/public/tech/css.png",
   },
   {
     name: "JavaScript",
-    icon: javascript,
+    icon: "/public/tech/javascript.png",
   },
   {
     name: "TypeScript",
-    icon: typescript,
+    icon: "/public/tech/typescript.png",
   },
   {
     name: "React JS",
-    icon: reactjs,
+    icon: "/public/tech/reactjs.png",
   },
   {
     name: "Redux Toolkit",
-    icon: redux,
+    icon: "/public/tech/redux.png",
   },
   {
     name: "Tailwind CSS",
-    icon: tailwind,
+    icon: "/public/tech/tailwind.png",
   },
   // {
   //   name: "Node JS",
@@ -108,11 +108,11 @@ const technologies = [
   // },
   {
     name: "Three JS",
-    icon: threejs,
+    icon: "/public/tech/threejs.svg",
   },
   {
     name: "git",
-    icon: git,
+    icon: "/public/tech/git.png",
   },
   // {
   //   name: "figma",
