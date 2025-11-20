@@ -3,16 +3,16 @@ import {
   backend,
   creator,
   web,
-  javascript,
-  typescript,
-  html,
-  css,
-  reactjs,
-  redux,
-  tailwind,
+  // javascript,
+  // typescript,
+  // html,
+  // css,
+  // reactjs,
+  // redux,
+  // tailwind,
   nodejs,
   mongodb,
-  git,
+  // git,
   figma,
   docker,
   meta,
@@ -22,8 +22,18 @@ import {
   specialdesign,
   dashboard,
   portfolio,
-  threejs,
+  // threejs,
 } from "../assets";
+
+import javascript from "../assets/tech/javascript.png"
+import typescript from "../assets/tech/typescript.png"
+import html from "../assets/tech/html.png"
+import css from "../assets/tech/css.png"
+import reactjs from "../assets/tech/reactjs.png"
+import redux from "../assets/tech/redux.png"
+import tailwind from "../assets/tech/tailwind.png"
+import git from "../assets/tech/git.png"
+import threejs from "../assets/tech/threejs.svg"
 
 export const navLinks = [
   {
